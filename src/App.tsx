@@ -1,6 +1,7 @@
 import "./App.css";
-import InputState from "./components/InputState";
-import ShigotoEffectAndState from "./components/ShigotoEffectAndState";
+import Great from "./components/Great";
+// import InputState from "./components/InputState";
+// import ShigotoEffectAndState from "./components/ShigotoEffectAndState";
 // import { useContext } from "react";
 // import { ProfileContext } from "./lib/profileContext";
 // import EffectComponent from "./components/useEffectTest";
@@ -14,13 +15,7 @@ function App() {
 
   return (
     <div>
-      {/* <ConditionalComponent method="UPDATE" />
-      <ConditionalComponent method="CREATE" />
-      <EffectComponent />
-      <RefComponent />
-      <TanstackExample /> */}
-      {/* <ShigotoEffectAndState /> */}
-      <InputState />
+      <Great name="Rafi Akmal Widikta" umur={18} ttl="cilacap" hobi="basket" />
     </div>
   );
 }
