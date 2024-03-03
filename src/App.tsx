@@ -1,8 +1,9 @@
 import "./App.css";
-import Heading from "./components/Heading";
-import Oscar from "./components/Oscar";
-import Status from "./components/Status";
-import Great from "./components/Great";
+import Button from "./components/Button";
+// import Heading from "./components/Heading";
+// import Oscar from "./components/Oscar";
+// import Status from "./components/Status";
+// import Great from "./components/Great";
 // import ListPerson from "./components/ListPerson";
 // import Person from "./components/Person";
 // import InputState from "./components/InputState";
@@ -43,11 +44,16 @@ function App() {
       {/* <Great name="Rafi Akmal Widikta" isMassage={10} isLogined={false} /> */}
       {/* <Person name={isPersonName} /> */}
       {/* <ListPerson names={isListPerson} /> */}
-      <Status status="loading" />
+      {/* <Status status="loading" />
       <Heading>haiii</Heading>
       <Oscar>
         <Great name="Rafi Akmal Widikta" isMassage={10} isLogined={true} />
-      </Oscar>
+      </Oscar> */}
+      <Button
+        handleClick={(event, id) => {
+          console.log("button di click", event, id);
+        }}
+      />
     </div>
   );
 }
