@@ -1,6 +1,7 @@
 import "./App.css";
-import Button from "./components/Button";
-import Input from "./components/Input";
+import Container from "./components/Container";
+// import Button from "./components/Button";
+// import Input from "./components/Input";
 // import Heading from "./components/Heading";
 // import Oscar from "./components/Oscar";
 // import Status from "./components/Status";
@@ -50,12 +51,14 @@ function App() {
       <Oscar>
         <Great name="Rafi Akmal Widikta" isMassage={10} isLogined={true} />
       </Oscar> */}
-      <Button
+      {/* <Button
         handleClick={(event, id) => {
           console.log("button di click", event, id);
         }}
       />
-      <Input value="" handleChange={(event) => console.log(event)} />
+      <Input value="" handleChange={(event) => console.log(event)} /> */}
+
+      <Container styles={{ border: "1px solid black", padding: "1rem" }} />
     </div>
   );
 }
