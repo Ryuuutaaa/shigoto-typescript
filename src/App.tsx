@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/Button";
+import Input from "./components/Input";
 // import Heading from "./components/Heading";
 // import Oscar from "./components/Oscar";
 // import Status from "./components/Status";
@@ -54,6 +55,7 @@ function App() {
           console.log("button di click", event, id);
         }}
       />
+      <Input value="" handleChange={(event) => console.log(event)} />
     </div>
   );
 }
