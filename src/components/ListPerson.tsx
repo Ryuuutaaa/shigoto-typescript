@@ -1,10 +1,9 @@
 import React from "react";
 
+import { Name } from "../lib/personTypes";
+
 type getListPerson = {
-  names: {
-    first: string;
-    last: string;
-  }[];
+  names: Name[];
 };
 
 const ListPerson = (props: getListPerson) => {
